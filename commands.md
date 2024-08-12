@@ -14,6 +14,8 @@ Fanpico supports following commands:
 * [CONFigure:DELete](#configuredelete)
 * [CONFigure:FANx:NAME](#configurefanxname)
 * [CONFigure:FANx:NAME?](#configurefanxname-1)
+* [CONFigure:FANx:HYSteresis](#CONFigure:FANx:HYSteresis)
+* [CONFigure:FANx:HYSteresis?](#CONFigure:FANx:HYSteresis-1)
 * [CONFigure:FANx:MINpwm](#configurefanxminpwm)
 * [CONFigure:FANx:MINpwm?](#configurefanxminpwm-1)
 * [CONFigure:FANx:MAXpwm](#configurefanxmaxpwm)

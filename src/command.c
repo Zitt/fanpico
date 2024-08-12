@@ -837,12 +837,12 @@ int cmd_fan_source(const char *cmd, const char *args, int query, char *prev_cmd)
 	return ret;
 }
 
+
 int cmd_fan_tacho_hys(const char *cmd, const char *args, int query, char *prev_cmd)
 {
 	int fan;
 	float val;
 
-	//printf("in cmd_fan_tacho_hys(%s,%s,%d,%s)\n", cmd, args, query, prev_cmd);
 	fan = atoi(&prev_cmd[3]) - 1;
 	if (fan >= 0 && fan < FAN_COUNT) {
 		if (query) {
